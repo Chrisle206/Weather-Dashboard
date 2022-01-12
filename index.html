@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="search-block">
+        <h2 class="search">Search for a City:</h2>
+        <input id="search-bar" type="text" placeholder="San Diego" value="">
+        <button type="button" class="btn btn-primary">Search</button>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="block">Viewed Cities</div>
+        <div class="custom-box">
+            <h2 class="location">Location(Date)</h2>
+            <p id='currTemp'>Temp:</p>
+            <p id='currWind'>Wind:</p>
+            <p id='currHumid'>Humidity:</p>
+            <p id='currUV'>UV Index:</p>
+        </div>
+
+        <div>
+            <h2>5-Day Forecast: </h2>
+        </div>
+        <div class="card-group">
+            <div class="card inline-block">
+                <div class="card-body custom-card-body">
+                    <h5 class="card-date date1">Date</h5>
+                    <p class="card-text temp1">Temp:</p>
+                    <p class="card-text wind1">Wind:</p>
+                    <p class="card-text hum1">Humidity:</p>
+                </div>
+                <div class="card inline-block">
+                    <div class="card-body custom-card-body">
+                        <h5 class="card-date date2">Date</h5>
+                        <p class="card-text temp2">Temp:</p>
+                        <p class="card-text wind2">Wind:</p>
+                        <p class="card-text hum2">Humidity:</p>
+                    </div>
+                    <div class="card inline-block">
+                        <div class="card-body custom-card-body">
+                            <h5 class="card-date date3">Date</h5>
+                            <p class="card-text temp3">Temp:</p>
+                            <p class="card-text wind3">Wind:</p>
+                            <p class="card-text hum3">Humidity:</p>
+                        </div>
+                        <div class="card inline-block">
+                            <div class="card-body custom-card-body">
+                                <h5 class="card-date date4">Date</h5>
+                                <p class="card-text temp4">Temp:</p>
+                                <p class="card-text wind4">Wind:</p>
+                                <p class="card-text hum4">Humidity:</p>
+                            </div>
+                            <div class="card inline-block">
+                                <div class="card-body custom-card-body">
+                                    <h5 class="card-date date5">Date</h5>
+                                    <p class="card-text temp5">Temp:</p>
+                                    <p class="card-text wind5">Wind:</p>
+                                    <p class="card-text hum5">Humidity:</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous"></script>
+                <script src="./script.js"></script>
+</body>
+
+</html>

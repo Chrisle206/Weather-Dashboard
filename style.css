@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.custom-box {
+    margin: 25px;
+    border-style: solid;
+}
+
+.custom-card {
+    margin: 5px;
+}
+
+hr {
+    color: black;
+    height: 2px;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-block {
+    background-color: skyblue;
+}
+
+.search {
+ margin-left: 5px;
+}
+
+#search-bar {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.block {
+    height: 100px;
+    width:200px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.custom-card-body {
+    background-color: steelblue;
+    color: white;
+}
